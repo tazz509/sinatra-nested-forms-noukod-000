@@ -8,7 +8,7 @@ module FormsLab
       erb :root
     end
 
-    post '/' do
+    post '/new' do
       erb :new
     end
 
